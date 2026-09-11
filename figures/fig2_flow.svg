@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 900" width="1500" height="900" font-family="'Malgun Gothic','맑은 고딕','Noto Sans KR',sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1e293b"/></marker><marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b91c1c"/></marker></defs>
+<rect width="1500" height="900" fill="#ffffff"/>
+<text x="750" y="44" font-size="22" text-anchor="middle" font-weight="700" fill="#1e293b">프로그램 흐름 — 인증 상태 기계</text>
+<text x="750" y="70" font-size="13" text-anchor="middle" font-weight="400" fill="#64748b">붉은 화살표 = 실패 경로 / 굵은 테두리 = 보안상 중요한 순서</text>
+<rect x="80" y="110" width="240" height="66" rx="8" fill="#f8fafc" stroke="#1e293b" stroke-width="2"/>
+<text x="200" y="150" font-size="14" text-anchor="middle" font-weight="700" fill="#1e293b">전원 투입 / 부팅</text>
+<rect x="80" y="216" width="240" height="86" rx="8" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+<text x="200" y="256.75" font-size="13" text-anchor="middle" font-weight="700" fill="#1e293b">EEPROM 실패 카운터 확인</text>
+<text x="200" y="274.25" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">값 ^ 보수 != 0xFF 이면 손상</text>
+<rect x="80" y="342" width="240" height="66" rx="8" fill="#f8fafc" stroke="#1e293b" stroke-width="2"/>
+<text x="200" y="382.5" font-size="15" text-anchor="middle" font-weight="700" fill="#1e293b">대기 (IDLE)</text>
+<rect x="80" y="448" width="240" height="86" rx="8" fill="#eff6ff" stroke="#1e293b" stroke-width="2"/>
+<text x="200" y="489" font-size="13.5" text-anchor="middle" font-weight="700" fill="#1e293b">1단계 · 버튼 순서 입력</text>
+<text x="200" y="506.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">4자리 · 10초 무입력 시 취소</text>
+<rect x="80" y="574" width="240" height="96" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+<text x="200" y="611.5" font-size="14" text-anchor="middle" font-weight="700" fill="#b91c1c">실패 카운터 +1</text>
+<text x="200" y="629" font-size="11.5" text-anchor="middle" font-weight="700" fill="#b91c1c">평가하기 전에 먼저 기록</text>
+<text x="200" y="646.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">전원 차단 회피 방지</text>
+<rect x="80" y="710" width="240" height="96" rx="8" fill="#eff6ff" stroke="#1e293b" stroke-width="2"/>
+<text x="200" y="747.25" font-size="13.5" text-anchor="middle" font-weight="700" fill="#1e293b">2단계 · 노크 4회 수신</text>
+<text x="200" y="764.75" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">비교기 → Timer1 캡처</text>
+<text x="200" y="782.25" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">6초 무입력 시 취소</text>
+<rect x="430" y="574" width="250" height="96" rx="8" fill="#f5f3ff" stroke="#4338ca" stroke-width="2"/>
+<text x="555" y="611" font-size="13" text-anchor="middle" font-weight="700" fill="#1e293b">링잉 불응기 50ms 적용</text>
+<text x="555" y="628.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">진폭 &lt; 70 이면 노크 무시</text>
+<text x="555" y="646" font-size="11.5" text-anchor="middle" font-weight="600" fill="#7c3aed">→ 간격 벡터 [t1,t2,t3]</text>
+<rect x="430" y="710" width="250" height="96" rx="8" fill="#f5f3ff" stroke="#4338ca" stroke-width="2"/>
+<text x="555" y="747" font-size="13" text-anchor="middle" font-weight="700" fill="#1e293b">템포 정규화</text>
+<text x="555" y="764.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">비율 벡터 (합 = 1000)</text>
+<text x="555" y="782" font-size="11.5" text-anchor="middle" font-weight="600" fill="#b91c1c">범위 밖이면 즉시 거부</text>
+<rect x="790" y="710" width="250" height="96" rx="8" fill="#f5f3ff" stroke="#4338ca" stroke-width="2"/>
+<text x="915" y="747" font-size="13" text-anchor="middle" font-weight="700" fill="#1e293b">최근접 중심점 분류</text>
+<text x="915" y="764.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">정수 제곱거리 비교</text>
+<text x="915" y="782" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">임계값 초과 시 -1</text>
+<rect x="790" y="540" width="250" height="120" rx="14" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="915" y="591" font-size="18" text-anchor="middle" font-weight="700" fill="#7c3aed">판정</text>
+<text x="915" y="609" font-size="12" text-anchor="middle" font-weight="400" fill="#1e293b">PIN 사용자 &gt;= 0  그리고</text>
+<text x="915" y="627" font-size="12" text-anchor="middle" font-weight="700" fill="#7c3aed">리듬 사용자 == PIN 사용자</text>
+<rect x="1160" y="430" width="250" height="110" rx="8" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+<text x="1285" y="474.5" font-size="15" text-anchor="middle" font-weight="700" fill="#047857">해제 (GRANTED)</text>
+<text x="1285" y="492.5" font-size="12" text-anchor="middle" font-weight="400" fill="#1e293b">실패 카운터 0 으로 복귀</text>
+<text x="1285" y="510.5" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">3초 후 자동 잠금</text>
+<rect x="1160" y="600" width="250" height="96" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+<text x="1285" y="646.5" font-size="15" text-anchor="middle" font-weight="700" fill="#b91c1c">거부 (DENIED)</text>
+<text x="1285" y="664.5" font-size="12" text-anchor="middle" font-weight="400" fill="#1e293b">남은 시도 횟수 표시</text>
+<rect x="1160" y="740" width="250" height="110" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+<text x="1285" y="784.5" font-size="15" text-anchor="middle" font-weight="700" fill="#b91c1c">잠금 (LOCKOUT)</text>
+<text x="1285" y="802.5" font-size="12" text-anchor="middle" font-weight="400" fill="#1e293b">5회 연속 실패 → 30초 대기</text>
+<text x="1285" y="820.5" font-size="12" text-anchor="middle" font-weight="700" fill="#b91c1c">전원 재인가로 회피 불가</text>
+<rect x="430" y="342" width="250" height="96" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+<text x="555" y="379.5" font-size="14" text-anchor="middle" font-weight="700" fill="#1e293b">등록 (ENROLL)</text>
+<text x="555" y="397" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">순서 4자리 + 리듬 5회 반복</text>
+<text x="555" y="414.5" font-size="11.5" text-anchor="middle" font-weight="600" fill="#7c3aed">임계값을 흩어짐에서 자동 유도</text>
+<rect x="790" y="342" width="250" height="96" rx="8" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+<text x="915" y="379.5" font-size="14" text-anchor="middle" font-weight="700" fill="#1e293b">EEPROM 저장</text>
+<text x="915" y="397" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">체크섬 포함 38바이트</text>
+<text x="915" y="414.5" font-size="11.5" text-anchor="middle" font-weight="600" fill="#b91c1c">흩어짐 과다 시 저장 거부</text>
+<polyline points="200,176 200,216" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="200,302 200,342" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="200,408 200,448" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="200,534 200,574" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="200,670 200,710" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="320,758 390,758 390,622 430,622" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="555,670 555,710" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="680,758 790,758" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="915,710 915,660" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1040,580 1100,580 1100,485 1160,485" fill="none" stroke="#047857" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<text x="1100" y="470" font-size="12" text-anchor="middle" font-weight="600" fill="#047857">성립</text>
+<polyline points="1040,620 1100,620 1100,648 1160,648" fill="none" stroke="#b91c1c" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arw)"/>
+<text x="1103" y="690" font-size="12" text-anchor="middle" font-weight="600" fill="#b91c1c">불성립</text>
+<polyline points="1285,696 1285,740" fill="none" stroke="#b91c1c" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arw)"/>
+<text x="1360" y="722" font-size="12" text-anchor="middle" font-weight="600" fill="#b91c1c">5회 누적</text>
+<polyline points="320,375 430,375" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<text x="375" y="362" font-size="12" text-anchor="middle" font-weight="600" fill="#64748b">KEY1 길게</text>
+<polyline points="680,390 790,390" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="915,342 915,300 200,300 200,330" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<text x="560" y="292" font-size="11.5" text-anchor="middle" font-weight="600" fill="#64748b">등록 완료 후 대기로 복귀</text>
+<polyline points="1285,430 1285,250 555,250 555,336" fill="none" stroke="#047857" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<text x="900" y="242" font-size="12" text-anchor="middle" font-weight="700" fill="#047857">재등록은 인증 성공 직후에만 허용 (KEY1 길게)</text>
+</svg>

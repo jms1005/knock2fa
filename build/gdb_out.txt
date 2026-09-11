@@ -1,0 +1,16 @@
+Connected to the simulator.
+Loading section .data, size 0x436 lma 11ae
+Loading section .text, size 0x11ae lma 0
+Start address 0
+Transfer rate: 44832 bits in <1 sec.
+warning: could not convert 'test_done' from the host encoding (CP1252) to UTF-32.
+This normally should not happen, please file a bug report.
+warning: while parsing target memory map (at line 4): Required element <memory> is missing
+Breakpoint 1 at 0x14e: test_done. (2 locations)
+warning: while parsing target memory map (at line 4): Required element <memory> is missing
+
+Breakpoint 1.2, test_done () at C:/Users/hwali/OneDrive/Desktop/COSS/knock2fa/tests/test_knockfp.c:235
+235	  __asm__ __volatile__ ("nop");
+NCHK 26
+NFAIL 0
+$1 = {1 <repeats 26 times>, 0 <repeats 22 times>}

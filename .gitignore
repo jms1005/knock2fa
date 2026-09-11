@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# Microchip Studio / Visual Studio 잡파일
+.vs/
+obj/
+Debug/
+Release/
+*.suo
+*.user

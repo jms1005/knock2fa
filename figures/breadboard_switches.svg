@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 560" width="1180" height="560" font-family="'Malgun Gothic','맑은 고딕','Noto Sans KR',sans-serif">
+<rect width="1180" height="560" fill="#ffffff"/>
+<rect x="14" y="14" width="1152" height="532" rx="0" fill="none" stroke="#1e293b" stroke-width="2"/>
+<text x="590" y="40" font-size="17" text-anchor="middle" font-weight="700" fill="#1e293b">knock2fa 브링업 ② — 스위치 4개만 연결한 상태</text>
+<text x="590" y="60" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">지금 이것만 꽂으면 된다. 피에조·OLED 는 다음 단계에서 추가한다.</text>
+<rect x="346" y="74" width="524" height="350" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.6"/>
+<line x1="370" y1="100" x2="846" y2="100" stroke="#2563eb" stroke-width="2.2"/>
+<text x="356" y="104" font-size="13" text-anchor="end" font-weight="700" fill="#2563eb">-</text>
+<text x="390" y="88" font-size="10.5" text-anchor="start" font-weight="600" fill="#2563eb">GND 레일</text>
+<circle cx="380" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="404" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="428" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="452" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="500" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="524" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="548" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="572" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="620" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="644" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="668" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="692" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="740" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="764" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="788" cy="100" r="3" fill="#cbd5e1"/>
+<circle cx="812" cy="100" r="3" fill="#cbd5e1"/>
+<text x="364" y="146" font-size="10.5" text-anchor="end" font-weight="400" fill="#64748b">a</text>
+<circle cx="380" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="404" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="428" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="452" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="476" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="500" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="524" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="548" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="572" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="596" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="620" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="644" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="668" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="692" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="716" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="740" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="764" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="788" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="812" cy="142" r="3" fill="#cbd5e1"/>
+<circle cx="836" cy="142" r="3" fill="#cbd5e1"/>
+<text x="364" y="170" font-size="10.5" text-anchor="end" font-weight="400" fill="#64748b">b</text>
+<circle cx="380" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="404" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="428" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="452" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="476" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="500" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="524" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="548" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="572" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="596" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="620" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="644" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="668" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="692" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="716" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="740" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="764" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="788" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="812" cy="166" r="3" fill="#cbd5e1"/>
+<circle cx="836" cy="166" r="3" fill="#cbd5e1"/>
+<text x="364" y="194" font-size="10.5" text-anchor="end" font-weight="400" fill="#64748b">c</text>
+<circle cx="380" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="404" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="428" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="452" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="476" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="500" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="524" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="548" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="572" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="596" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="620" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="644" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="668" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="692" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="716" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="740" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="764" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="788" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="812" cy="190" r="3" fill="#cbd5e1"/>
+<circle cx="836" cy="190" r="3" fill="#cbd5e1"/>
+<text x="364" y="218" font-size="10.5" text-anchor="end" font-weight="400" fill="#64748b">d</text>
+<circle cx="380" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="404" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="428" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="452" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="476" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="500" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="524" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="548" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="572" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="596" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="620" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="644" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="668" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="692" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="716" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="740" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="764" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="788" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="812" cy="214" r="3" fill="#cbd5e1"/>
+<circle cx="836" cy="214" r="3" fill="#cbd5e1"/>
+<text x="364" y="242" font-size="10.5" text-anchor="end" font-weight="400" fill="#64748b">e</text>
+<circle cx="380" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="404" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="428" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="452" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="476" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="500" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="524" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="548" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="572" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="596" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="620" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="644" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="668" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="692" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="716" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="740" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="764" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="788" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="812" cy="238" r="3" fill="#cbd5e1"/>
+<circle cx="836" cy="238" r="3" fill="#cbd5e1"/>
+<text x="364" y="298" font-size="10.5" text-anchor="end" font-weight="400" fill="#64748b">f</text>
+<circle cx="380" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="404" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="428" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="452" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="476" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="500" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="524" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="548" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="572" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="596" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="620" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="644" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="668" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="692" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="716" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="740" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="764" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="788" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="812" cy="294" r="3" fill="#cbd5e1"/>
+<circle cx="836" cy="294" r="3" fill="#cbd5e1"/>
+<text x="364" y="322" font-size="10.5" text-anchor="end" font-weight="400" fill="#64748b">g</text>
+<circle cx="380" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="404" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="428" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="452" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="476" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="500" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="524" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="548" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="572" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="596" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="620" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="644" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="668" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="692" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="716" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="740" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="764" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="788" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="812" cy="318" r="3" fill="#cbd5e1"/>
+<circle cx="836" cy="318" r="3" fill="#cbd5e1"/>
+<text x="364" y="346" font-size="10.5" text-anchor="end" font-weight="400" fill="#64748b">h</text>
+<circle cx="380" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="404" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="428" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="452" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="476" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="500" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="524" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="548" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="572" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="596" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="620" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="644" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="668" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="692" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="716" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="740" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="764" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="788" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="812" cy="342" r="3" fill="#cbd5e1"/>
+<circle cx="836" cy="342" r="3" fill="#cbd5e1"/>
+<text x="364" y="370" font-size="10.5" text-anchor="end" font-weight="400" fill="#64748b">i</text>
+<circle cx="380" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="404" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="428" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="452" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="476" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="500" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="524" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="548" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="572" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="596" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="620" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="644" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="668" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="692" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="716" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="740" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="764" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="788" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="812" cy="366" r="3" fill="#cbd5e1"/>
+<circle cx="836" cy="366" r="3" fill="#cbd5e1"/>
+<text x="364" y="394" font-size="10.5" text-anchor="end" font-weight="400" fill="#64748b">j</text>
+<circle cx="380" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="404" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="428" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="452" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="476" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="500" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="524" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="548" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="572" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="596" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="620" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="644" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="668" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="692" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="716" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="740" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="764" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="788" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="812" cy="390" r="3" fill="#cbd5e1"/>
+<circle cx="836" cy="390" r="3" fill="#cbd5e1"/>
+<text x="608" y="416" font-size="11" text-anchor="middle" font-weight="400" fill="#64748b">+5V 레일은 이 단계에서 쓰지 않는다 (피에조 클램프·OLED 는 다음 단계).</text>
+<rect x="390" y="234" width="76" height="64" rx="6" fill="#fef9c3" stroke="#a16207" stroke-width="1.6"/>
+<circle cx="404" cy="238" r="4" fill="#a16207"/>
+<circle cx="452" cy="238" r="4" fill="#a16207"/>
+<circle cx="404" cy="294" r="4" fill="#a16207"/>
+<circle cx="452" cy="294" r="4" fill="#a16207"/>
+<text x="428" y="228" font-size="12" text-anchor="middle" font-weight="700" fill="#713f12">SW1 (KEY1)</text>
+<polyline points="404,142 404,100" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="404" cy="142" r="4" fill="#1e293b"/>
+<circle cx="452" cy="142" r="4" fill="#1e293b"/>
+<rect x="510" y="234" width="76" height="64" rx="6" fill="#fef9c3" stroke="#a16207" stroke-width="1.6"/>
+<circle cx="524" cy="238" r="4" fill="#a16207"/>
+<circle cx="572" cy="238" r="4" fill="#a16207"/>
+<circle cx="524" cy="294" r="4" fill="#a16207"/>
+<circle cx="572" cy="294" r="4" fill="#a16207"/>
+<text x="548" y="228" font-size="12" text-anchor="middle" font-weight="700" fill="#713f12">SW2 (KEY2)</text>
+<polyline points="524,142 524,100" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="524" cy="142" r="4" fill="#1e293b"/>
+<circle cx="572" cy="142" r="4" fill="#1e293b"/>
+<rect x="630" y="234" width="76" height="64" rx="6" fill="#fef9c3" stroke="#a16207" stroke-width="1.6"/>
+<circle cx="644" cy="238" r="4" fill="#a16207"/>
+<circle cx="692" cy="238" r="4" fill="#a16207"/>
+<circle cx="644" cy="294" r="4" fill="#a16207"/>
+<circle cx="692" cy="294" r="4" fill="#a16207"/>
+<text x="668" y="228" font-size="12" text-anchor="middle" font-weight="700" fill="#713f12">SW3 (KEY3)</text>
+<polyline points="644,142 644,100" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="644" cy="142" r="4" fill="#1e293b"/>
+<circle cx="692" cy="142" r="4" fill="#1e293b"/>
+<rect x="750" y="234" width="76" height="64" rx="6" fill="#fef9c3" stroke="#a16207" stroke-width="1.6"/>
+<circle cx="764" cy="238" r="4" fill="#a16207"/>
+<circle cx="812" cy="238" r="4" fill="#a16207"/>
+<circle cx="764" cy="294" r="4" fill="#a16207"/>
+<circle cx="812" cy="294" r="4" fill="#a16207"/>
+<text x="788" y="228" font-size="12" text-anchor="middle" font-weight="700" fill="#713f12">SW4 (KEY4)</text>
+<polyline points="764,142 764,100" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="764" cy="142" r="4" fill="#1e293b"/>
+<circle cx="812" cy="142" r="4" fill="#1e293b"/>
+<rect x="40" y="86" width="280" height="316" rx="0" fill="#f8fafc" stroke="#1e293b" stroke-width="2"/>
+<text x="180" y="116" font-size="16" text-anchor="middle" font-weight="700" fill="#1e293b">Arduino Uno</text>
+<text x="180" y="138" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">(ATmega328P 보드)</text>
+<polyline points="320,176 380,176 380,100" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="320" cy="176" r="4" fill="#1e293b"/>
+<text x="310" y="170" font-size="11" text-anchor="end" font-weight="600" fill="#1e293b">GND</text>
+<polyline points="320,215 452,215 452,142" fill="none" stroke="#0369a1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="320" cy="215" r="4" fill="#0369a1"/>
+<text x="310" y="209" font-size="11" text-anchor="end" font-weight="600" fill="#0369a1">D2</text>
+<polyline points="320,254 572,254 572,142" fill="none" stroke="#0369a1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="320" cy="254" r="4" fill="#0369a1"/>
+<text x="310" y="248" font-size="11" text-anchor="end" font-weight="600" fill="#0369a1">D3</text>
+<polyline points="320,293 692,293 692,142" fill="none" stroke="#0369a1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="320" cy="293" r="4" fill="#0369a1"/>
+<text x="310" y="287" font-size="11" text-anchor="end" font-weight="600" fill="#0369a1">D4</text>
+<polyline points="320,332 812,332 812,142" fill="none" stroke="#0369a1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="320" cy="332" r="4" fill="#0369a1"/>
+<text x="310" y="326" font-size="11" text-anchor="end" font-weight="600" fill="#0369a1">D5</text>
+<text x="180" y="382" font-size="10.5" text-anchor="middle" font-weight="400" fill="#64748b">다른 핀(D7,A0,A4,A5,5V)은</text>
+<text x="180" y="396" font-size="10.5" text-anchor="middle" font-weight="400" fill="#64748b">다음 단계(피에조·OLED)에서 쓴다</text>
+<line x1="40" y1="530" x2="66" y2="530" stroke="#1e293b" stroke-width="3"/>
+<text x="72" y="534" font-size="11.5" text-anchor="start" font-weight="600" fill="#1e293b">GND</text>
+<line x1="270" y1="530" x2="296" y2="530" stroke="#0369a1" stroke-width="3"/>
+<text x="302" y="534" font-size="11.5" text-anchor="start" font-weight="600" fill="#0369a1">디지털 신호 (D2~D5)</text>
+</svg>

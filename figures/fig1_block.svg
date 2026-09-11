@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 860" width="1500" height="860" font-family="'Malgun Gothic','맑은 고딕','Noto Sans KR',sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1e293b"/></marker><marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b91c1c"/></marker></defs>
+<rect width="1500" height="860" fill="#ffffff"/>
+<text x="750" y="44" font-size="22" text-anchor="middle" font-weight="700" fill="#1e293b">시스템 블록도</text>
+<text x="750" y="70" font-size="13" text-anchor="middle" font-weight="400" fill="#64748b">파란 테두리 = 하드웨어(주변장치) / 보라 테두리 = 소프트웨어</text>
+<text x="150" y="118" font-size="14" text-anchor="middle" font-weight="700" fill="#64748b">입력</text>
+<rect x="40" y="135" width="220" height="92" rx="8" fill="#f0f9ff" stroke="#0e7490" stroke-width="2"/>
+<text x="150" y="179.5" font-size="15" text-anchor="middle" font-weight="700" fill="#1e293b">택트 스위치 4개</text>
+<text x="150" y="197.5" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">PD2~PD5 · 내부 풀업</text>
+<rect x="40" y="300" width="220" height="108" rx="8" fill="#f0f9ff" stroke="#0e7490" stroke-width="2"/>
+<text x="150" y="343.5" font-size="15" text-anchor="middle" font-weight="700" fill="#1e293b">압전(피에조) 디스크</text>
+<text x="150" y="361.5" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">1MΩ 블리드 + 1kΩ 보호</text>
+<text x="150" y="379.5" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">+ 클램프 다이오드</text>
+<rect x="320" y="100" width="800" height="620" rx="12" fill="#fafafa" stroke="#64748b" stroke-width="2"/>
+<text x="720" y="128" font-size="16" text-anchor="middle" font-weight="700" fill="#64748b">ATmega328P  (16MHz · Bare-Metal)</text>
+<rect x="350" y="150" width="230" height="74" rx="8" fill="#f0f9ff" stroke="#0e7490" stroke-width="2"/>
+<text x="465" y="184.75" font-size="13.5" text-anchor="middle" font-weight="700" fill="#1e293b">GPIO 폴링 + 디바운스</text>
+<text x="465" y="202.75" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">keypad.c</text>
+<rect x="350" y="290" width="230" height="88" rx="8" fill="#f0f9ff" stroke="#0e7490" stroke-width="2"/>
+<text x="465" y="322.75" font-size="13.5" text-anchor="middle" font-weight="700" fill="#1e293b">Analog Comparator</text>
+<text x="465" y="340.75" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">내부 1.1V 밴드갭 기준</text>
+<text x="465" y="358.75" font-size="12" text-anchor="middle" font-weight="600" fill="#7c3aed">ACIC=1</text>
+<rect x="350" y="400" width="230" height="88" rx="8" fill="#f0f9ff" stroke="#0e7490" stroke-width="2"/>
+<text x="465" y="432.75" font-size="13.5" text-anchor="middle" font-weight="700" fill="#1e293b">Timer1 Input Capture</text>
+<text x="465" y="450.75" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">ICR1 하드웨어 래치</text>
+<text x="465" y="468.75" font-size="12" text-anchor="middle" font-weight="600" fill="#7c3aed">분해능 500ns</text>
+<rect x="350" y="510" width="230" height="74" rx="8" fill="#f0f9ff" stroke="#0e7490" stroke-width="2"/>
+<text x="465" y="544.75" font-size="13.5" text-anchor="middle" font-weight="700" fill="#1e293b">ADC0  (8bit / 1MHz)</text>
+<text x="465" y="562.75" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">노크 진폭 게이트</text>
+<rect x="640" y="150" width="230" height="74" rx="8" fill="#f5f3ff" stroke="#4338ca" stroke-width="2"/>
+<text x="755" y="184.75" font-size="13.5" text-anchor="middle" font-weight="700" fill="#1e293b">순서 대조</text>
+<text x="755" y="202.75" font-size="12" text-anchor="middle" font-weight="600" fill="#047857">1단계 · 지식</text>
+<rect x="640" y="330" width="230" height="88" rx="8" fill="#f5f3ff" stroke="#4338ca" stroke-width="2"/>
+<text x="755" y="362.75" font-size="13.5" text-anchor="middle" font-weight="700" fill="#1e293b">링잉 불응기 50ms</text>
+<text x="755" y="380.75" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">간격 벡터 [t1,t2,t3]</text>
+<text x="755" y="398.75" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">knock.c</text>
+<rect x="640" y="440" width="230" height="88" rx="8" fill="#f5f3ff" stroke="#4338ca" stroke-width="2"/>
+<text x="755" y="472.75" font-size="13.5" text-anchor="middle" font-weight="700" fill="#1e293b">템포 정규화</text>
+<text x="755" y="490.75" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">비율 벡터 (합=1000)</text>
+<text x="755" y="508.75" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">knockfp.c</text>
+<rect x="640" y="550" width="230" height="88" rx="8" fill="#f5f3ff" stroke="#4338ca" stroke-width="2"/>
+<text x="755" y="582.75" font-size="13.5" text-anchor="middle" font-weight="700" fill="#1e293b">최근접 중심점 분류</text>
+<text x="755" y="600.75" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">32비트 정수 · float 없음</text>
+<text x="755" y="618.75" font-size="12" text-anchor="middle" font-weight="600" fill="#047857">classify.c  (재사용)</text>
+<rect x="920" y="300" width="170" height="130" rx="14" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="1005" y="341" font-size="14" text-anchor="middle" font-weight="700" fill="#1e293b">2단계 동시 성립</text>
+<text x="1005" y="367" font-size="20" text-anchor="middle" font-weight="700" fill="#7c3aed">판정</text>
+<text x="1005" y="385" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">PIN 사용자</text>
+<text x="1005" y="403" font-size="12" text-anchor="middle" font-weight="600" fill="#7c3aed">== 리듬 사용자</text>
+<rect x="640" y="660" width="230" height="46" rx="8" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+<text x="755" y="689.25" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1e293b">EEPROM 40B — 등록정보 · 실패 카운터</text>
+<text x="1310" y="118" font-size="14" text-anchor="middle" font-weight="700" fill="#64748b">출력</text>
+<rect x="1180" y="150" width="250" height="74" rx="8" fill="#f0f9ff" stroke="#0e7490" stroke-width="2"/>
+<text x="1305" y="185.5" font-size="15" text-anchor="middle" font-weight="700" fill="#1e293b">OLED SSD1306</text>
+<text x="1305" y="203.5" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">I2C · 상태 표시</text>
+<rect x="1180" y="320" width="250" height="90" rx="8" fill="#f0f9ff" stroke="#0e7490" stroke-width="2"/>
+<text x="1305" y="354.5" font-size="15" text-anchor="middle" font-weight="700" fill="#1e293b">액추에이터 / LED</text>
+<text x="1305" y="372.5" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">PB1 · 잠금 해제</text>
+<text x="1305" y="390.5" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">3초 후 자동 잠금</text>
+<rect x="1180" y="500" width="250" height="90" rx="8" fill="#f0f9ff" stroke="#0e7490" stroke-width="2"/>
+<text x="1305" y="534.5" font-size="15" text-anchor="middle" font-weight="700" fill="#1e293b">UART 38400 8N1</text>
+<text x="1305" y="552.5" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b">CSV 로그 → PC</text>
+<text x="1305" y="570.5" font-size="12" text-anchor="middle" font-weight="600" fill="#047857">실험 3·4 데이터 수집</text>
+<polyline points="260,181 350,181" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="260,340 310,340 310,334 350,334" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="260,380 310,380 310,554 350,554" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="465,378 465,400" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="580,187 640,187" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="580,444 610,444 610,374 640,374" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="580,547 610,547 610,400 640,400" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<polyline points="755,418 755,440" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="755,528 755,550" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="870,187 895,187 895,330 920,330" fill="none" stroke="#047857" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="870,594 895,594 895,400 920,400" fill="none" stroke="#047857" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="755,660 755,638" fill="none" stroke="#a16207" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1090,340 1180,340" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1090,320 1140,320 1140,187 1180,187" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1090,410 1140,410 1140,545 1180,545" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+<text x="305" y="168" font-size="11.5" text-anchor="middle" font-weight="600" fill="#64748b">키 입력</text>
+<text x="305" y="322" font-size="11.5" text-anchor="middle" font-weight="600" fill="#64748b">노크 전압</text>
+<text x="600" y="300" font-size="11.5" text-anchor="middle" font-weight="600" fill="#7c3aed">시각</text>
+<text x="600" y="470" font-size="11.5" text-anchor="middle" font-weight="600" fill="#64748b">진폭</text>
+<text x="897" y="262" font-size="11" text-anchor="middle" font-weight="600" fill="#047857">순서 일치 사용자</text>
+<text x="897" y="640" font-size="11" text-anchor="middle" font-weight="600" fill="#047857">리듬 일치 사용자</text>
+<rect x="40" y="750" width="1420" height="78" rx="10" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="60" y="776" font-size="13.5" text-anchor="start" font-weight="700" fill="#7c3aed">핵심: 두 인증 계층이 서로 다른 주변장치에서 독립적으로 얻어지고, 두 결과가 같은 사용자를 가리켜야만 해제된다.</text>
+<text x="60" y="802" font-size="13" text-anchor="start" font-weight="400" fill="#1e293b">따라서 버튼 순서가 노출되어도, 리듬을 흉내내도, 한쪽만으로는 잠금을 풀 수 없다.</text>
+</svg>
