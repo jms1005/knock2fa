@@ -12,6 +12,7 @@ python "$ROOT/tools/make_breadboard.py"
 python "$ROOT/tools/make_breadboard_switches.py"
 python "$ROOT/tools/make_breadboard_oled.py"
 python "$ROOT/tools/make_breadboard_piezo.py"
+python "$ROOT/tools/make_breadboard_actuator.py"
 python "$ROOT/tools/make_switch_detail.py"
 python "$ROOT/tools/make_bringup.py"
 python "$ROOT/tools/make_schematic_bringup.py"
@@ -38,6 +39,7 @@ render breadboard 1680 700
 render breadboard_switches 1180 560
 render breadboard_oled 1400 620
 render breadboard_piezo 1680 700
+render breadboard_actuator 1900 700
 render switch_detail 1400 640
 render bringup 1560 820
 render schematic_bringup 1560 1240

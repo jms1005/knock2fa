@@ -195,6 +195,7 @@ python tools/pack_submission.py   # 소스 zip + 제출 체크리스트
 | `make_breadboard_switches.py` | `figures/breadboard_switches.svg` | 브링업 ②단계 전용 — 스위치 4개만 (피에조·OLED 없음) |
 | `make_breadboard_oled.py` | `figures/breadboard_oled.svg` | 브링업 ③단계 전용 — 스위치 4개 + OLED (피에조 없음) |
 | `make_breadboard_piezo.py` | `figures/breadboard_piezo.svg` | 브링업 ④단계 전용 — 스위치 + OLED + 피에조 (회로 완성) |
+| `make_breadboard_actuator.py` | `figures/breadboard_actuator.svg` | 브링업 ⑥단계 전용 — ②③④ + 액추에이터/상태 LED (D9→R2→D1→GND, 회로 최종 완성) |
 | `make_switch_detail.py` | `figures/switch_detail.svg` | 브링업용 — 스위치 1개의 GND/신호 연결 확대도 (안 눌림/눌림 비교) |
 | `make_bringup.py` | `figures/bringup.svg` | 브링업용 — §9 절차를 ①~⑥ 단계별 확인 사항으로 정리한 흐름도 |
 | `make_schematic_bringup.py` | `figures/schematic_bringup.svg` | 브링업용 — 제출용 회로도에 ②③④ 단계 배지만 얹은 사본 (schematic.svg 는 그대로 유지) |
