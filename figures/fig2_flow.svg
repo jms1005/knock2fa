@@ -22,7 +22,7 @@
 <text x="200" y="764.75" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">비교기 → Timer1 캡처</text>
 <text x="200" y="782.25" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">6초 무입력 시 취소</text>
 <rect x="430" y="574" width="250" height="96" rx="8" fill="#f5f3ff" stroke="#4338ca" stroke-width="2"/>
-<text x="555" y="611" font-size="13" text-anchor="middle" font-weight="700" fill="#1e293b">링잉 불응기 50ms 적용</text>
+<text x="555" y="611" font-size="13" text-anchor="middle" font-weight="700" fill="#1e293b">링잉 불응기 250ms 적용</text>
 <text x="555" y="628.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">진폭 &lt; 70 이면 노크 무시</text>
 <text x="555" y="646" font-size="11.5" text-anchor="middle" font-weight="600" fill="#7c3aed">→ 간격 벡터 [t1,t2,t3]</text>
 <rect x="430" y="710" width="250" height="96" rx="8" fill="#f5f3ff" stroke="#4338ca" stroke-width="2"/>
@@ -54,7 +54,7 @@
 <text x="555" y="414.5" font-size="11.5" text-anchor="middle" font-weight="600" fill="#7c3aed">임계값을 흩어짐에서 자동 유도</text>
 <rect x="790" y="342" width="250" height="96" rx="8" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
 <text x="915" y="379.5" font-size="14" text-anchor="middle" font-weight="700" fill="#1e293b">EEPROM 저장</text>
-<text x="915" y="397" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">체크섬 포함 38바이트</text>
+<text x="915" y="397" font-size="11.5" text-anchor="middle" font-weight="400" fill="#64748b">체크섬 포함 44바이트</text>
 <text x="915" y="414.5" font-size="11.5" text-anchor="middle" font-weight="600" fill="#b91c1c">흩어짐 과다 시 저장 거부</text>
 <polyline points="200,176 200,216" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
 <polyline points="200,302 200,342" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
