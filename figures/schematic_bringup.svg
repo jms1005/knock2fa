@@ -334,7 +334,7 @@
 <text x="1102" y="1098" font-size="12.5" text-anchor="start" font-weight="700" fill="#1e293b">버튼 시퀀스 · 노크 리듬 기반 이중 인증 잠금 시스템</text>
 <text x="1102" y="1132" font-size="14.5" text-anchor="start" font-weight="700" fill="#1e293b">회로도 — 전체 시스템</text>
 <text x="1102" y="1163" font-size="11.5" text-anchor="start" font-weight="400" fill="#52525b">2026 COSS MCU 응용 경진대회</text>
-<text x="1102" y="1193" font-size="11.5" text-anchor="start" font-weight="400" fill="#52525b">설계: (팀명 기입)</text>
+<text x="1102" y="1193" font-size="11.5" text-anchor="start" font-weight="400" fill="#52525b">설계: 노크온</text>
 <text x="1402" y="1163" font-size="11.5" text-anchor="start" font-weight="400" fill="#52525b">Rev. 1.0</text>
 <text x="1402" y="1193" font-size="11.5" text-anchor="start" font-weight="400" fill="#52525b">Sheet 1 / 1</text>
 <text x="40" y="50" font-size="13" font-weight="700" fill="#0f766e">브링업 순서 배지 (README §9): &#9312; 보드만 -&gt; &#9313; 스위치 -&gt; &#9314; OLED -&gt; &#9315; 피에조 -&gt; &#9316; 등록/인증 -&gt; &#9317; 액추에이터</text><circle cx="862" cy="380" r="16" fill="#0f766e" stroke="#ffffff" stroke-width="2.4"/><text x="862" y="385" font-size="15" text-anchor="middle" font-weight="700" fill="#ffffff">2</text><circle cx="1080" cy="194" r="16" fill="#0f766e" stroke="#ffffff" stroke-width="2.4"/><text x="1080" y="199" font-size="15" text-anchor="middle" font-weight="700" fill="#ffffff">4</text><circle cx="1170" cy="732" r="16" fill="#0f766e" stroke="#ffffff" stroke-width="2.4"/><text x="1170" y="737" font-size="15" text-anchor="middle" font-weight="700" fill="#ffffff">3</text></svg>
